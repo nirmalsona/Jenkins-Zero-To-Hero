@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'sudo systemctl start nginx'
+        sh 'ls'
       }
     }
   }
