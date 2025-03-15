@@ -1,11 +1,11 @@
 pipeline {
   agent {
-    docker { image 'nginx' }
+    docker { image 'ubuntu' }
   }
   stages {
     stage('Test') {
       steps {
-        
+        sh 'whoami'
       }
     }
   }
